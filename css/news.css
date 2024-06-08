@@ -1,0 +1,151 @@
+.server {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	left: 5px;
+	z-index: 10;
+    max-width: 1000px;
+    gap: 40px;
+    padding-left: 30px;
+}
+.serv__rd__text {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 23px;
+    font-family: UniNeueHeavy;
+    color: white;
+}
+.serv__rd {
+	min-width: 374px;
+	height: 243px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 8px;
+	padding-left: 42px;
+	padding-top: 13px;
+	max-width: 374px;
+}
+.serv__rd__title.h2 {
+	font-family: UniNeueBold;
+	font-size: 25px;
+	margin-top: 30px;
+    margin-bottom: 12px;
+    color: orange;
+}
+.serv__rd__text span {
+	width: 100%;
+	display: inline-block;
+    font-size: 15px;
+    color: red;
+}
+.serv__rd:after {
+	border-radius: 8px;
+	-webkit-filter: blur(30px);
+	-moz-filter: blur(30px);
+	-o-filter: blur(30px);
+	-ms-filter: blur(30px);
+	filter: blur(30px);
+	width: 100%;
+	height: 100%;
+	background: url('../img/bg-blur.png');
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.serv__rd:hover:before {
+	background: url('../images/br__sv.png');
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: repeat;
+	background-repeat: no-repeat;
+	height: 251px;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0px;
+	background-size: 100%;
+	width: 100%;
+	opacity: 1;
+	transition: .2s ease;
+}
+.serv__rd:before {
+	background: url('../images/br__sv.png');
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: repeat;
+	background-repeat: no-repeat;
+	height: 251px;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0px;
+	background-size: 100%;
+	z-index: 1;
+	width: 100%;
+	opacity: 0;
+	transition: .2s ease;
+}
+.serv__rd__line:after {
+	background: rgb(241, 240, 240);
+	border-radius: 100px;
+	content: "";
+	position: absolute;
+}
+.serv__rd__line {
+	width: 100%;
+	height: 10px;
+	margin-top: 3px;
+	margin-bottom: 15px;
+	background: rgb(238, 235, 235);
+	border-radius: 100px;
+	max-width: 232px;
+	position: relative;
+}
+.serv__rd__line span {
+	height: 10px;
+	margin-top: 3px;
+	margin-bottom: 15px;
+	border-radius: 100px;
+	max-width: 232px;
+	position: relative;
+	z-index: 1;
+	display: flex;
+}
+.serv__rd__ip {
+	font-size: 18px;
+	color: rgb(245, 240, 240);
+	padding-top: 3px;
+	width: 93%;
+	position: relative;
+	z-index: 10;
+}
+.serv__rd__ip span {
+	margin-right: 30px;
+	z-index: 12;
+	position: relative;
+}
+.serv__rd__ip a {
+	color: rgb(255, 251, 251);
+	font-size: 14px;
+	float: right;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+.home__main.revealator-slideright.revealator-within {
+	position: relative;
+	z-index: 1;
+}
+.serv__rd__ip a:hover {
+	color: #FF6868;
+	border-bottom: 2px solid #FF6868;
+}
+
